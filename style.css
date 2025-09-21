@@ -15,10 +15,10 @@
       width: 100%;
     }
 
-    /* Top Section */
+   
     .profile {
-      background: #87CEFA; /* light blue */
-      border: 2px solid #FF69B4; /* pink border */
+      background: #87CEFA; 
+      border: 2px solid #FF69B4; 
       border-radius: 15px;
       padding: 20px;
       display: grid;
@@ -41,7 +41,7 @@
       color: #333;
     }
 
-    /* Bottom Section */
+
     .bottom {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -56,7 +56,7 @@
       text-align: center;
     }
 
-    /* Responsive */
+
     @media (max-width: 768px) {
       .profile {
         grid-template-columns: 1fr;
